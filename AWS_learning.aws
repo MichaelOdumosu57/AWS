@@ -1,0 +1,97 @@
+]]]]]]]]]]]]]]]]///////////////////////////////
+AWS
+]]]]]]]]]]]]]]]]///////////////////////////////
+
+templates
+
+]]]]]]]]]]]]]]]]///////////////////////////////
+
+]]]]]]]]]]]]]]]]///////////////////////////////
+ -----------
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+ -----------
+ -----------
+|           |
+|           |
+|           |
+|           |
+|           |
+ ]]]]]]]]]//
+
+
+Amazon simple stroage serivce (Amazon S3)
+ -----------
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+ -----------
+
+
+Block storage
+
+
+    stores data in an array of organized blocks
+    provided with Amazon EBS,
+
+
+File Storage
+
+    stored on a file system
+    provided with Amazon EFS
+    can connect to your files using aws virtual cloud
+
+
+Object storage
+    
+    made with data metedata and unique id
+    designed to hold limitless data needed for apps
+    Amazon s3
+
+
+ -----------
+|           |
+|           |
+|           |
+|           |
+|           |
+ ]]]]]]]]]//
+
+to learn https://aws.amazon.com/s3/
+
+need s3 when dealing with data from several different data sources
+pay for only what you use
+S3 standard
+s3 intelligent training
+s3 standard- infrequent access
+s3  one zone - infrequent access
+s3  Glacier
+s3   Glacier deep archive
+
+stores objects in buckets
+
+access via aws management console aws cli or aws sdk
+dont worry about payment
+
+AWS has good detail on your S3 costs
+
+
