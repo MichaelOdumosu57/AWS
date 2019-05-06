@@ -1,0 +1,28 @@
+Step 1
+
+Use Case 1: Product Catalog
+
+store items in a table with unique characteristics
+its gets a unique key
+
+use case 2: messaging service
++------------+--------------------------------------------------------------+
+| Table Name | Primary Key                                                  |
++------------+--------------------------------------------------------------+
+| Forum      | Partition key: Name (String)                                 |
++------------+--------------------------------------------------------------+
+| Thread     | Partition key: ForumName (String) Sort key: Subject (String) |
++------------+--------------------------------------------------------------+
+| Reply      | Partition key: Id (String) Sort key: ReplyDateTime (String)  |
++------------+--------------------------------------------------------------+
+             | Index Name             | Primary Key                                                 |
+             +------------------------+-------------------------------------------------------------+
+             | PostedBy-Message-Index | Partition key: PostedBy (String) Sort key: Message (String) |
+            +------------------------+-------------------------------------------------------------+
+
+
+the reply table is not created because of costs
+
+Step 2
+
+

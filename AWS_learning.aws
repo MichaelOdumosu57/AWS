@@ -34,6 +34,19 @@ templates
  ]]]]]]]]]//
 
 
+
+ -----------
+|           |
+|           |
+|           |      ------------->
+|           |
+|           |
+ ]]]]]]]]]//
+
+
+means link to another section
+
+
 Amazon simple stroage serivce (Amazon S3)
  -----------
 |           |
@@ -137,3 +150,17 @@ can use  AWS Database Migration Service to move a RDBMS or MongoDB to DynamoDB
 
 
 
+Amazon DynamoDB: How It Works
+
+ -----------
+|           |
+|           |
+|           |      ------------->
+|           |
+|           |
+ ]]]]]]]]]//
+
+Creating Tables and Loading Sample Data
+
+
+Step 1: Create Example Tables

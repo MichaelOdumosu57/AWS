@@ -1,0 +1,81 @@
+1: Create the ProductCatalog Table
+
+Create Table
+    ||
+    \/
+Table = ProductCatalog
+Partition Key = Id
+    Data Type = Number
+    ||
+    \/
+Create
+
+
+2:Create the Forum Table
+
+Create Table
+    ||
+    \/
+Table = Forum
+Partition Key = Name
+    Data Type = String
+    ||
+    \/
+Create
+
+
+
+3:Create the Thread Table
+
+Create Table
+    ||
+    \/
+Table = Thread
+Partition Key = ForumName
+    Data Type = String
+    ||
+    \/
+Add Sort Key
+    ||
+    \/
+Sort key = Subject
+    Data Type = String
+
+Create
+
+
+
+
+4:Create the Reply Table
+
+Create Table
+    ||
+    \/
+Table = Reply
+Partition Key = ForumName
+    Data Type = String
+    ||
+    \/
+Add Sort Key
+    ||
+    \/
+Sort key = ReplyDateTime
+    Data Type = String
+    ||
+    \/
+deselect Use default settings
+    ||
+    \/
+Secondary indexes -> add index
+Partition Key -> PostedBy
+    data type string
+    ||
+    \/
+Add sort key
+Sort Key  = Message
+    data type string
+    ||
+    \/
+Add index
+
+Create
