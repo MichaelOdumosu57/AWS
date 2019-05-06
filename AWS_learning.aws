@@ -2,6 +2,10 @@
 AWS
 ]]]]]]]]]]]]]]]]///////////////////////////////
 
+look on  cuenta
+
+free stuff https://aws.amazon.com/free/?awsf.Free%20Tier%20Types=categories%23featured
+
 templates
 
 ]]]]]]]]]]]]]]]]///////////////////////////////
@@ -67,6 +71,7 @@ Object storage
     designed to hold limitless data needed for apps
     Amazon s3
 
+look for .aws in your hidden folders
 
  -----------
 |           |
@@ -93,5 +98,42 @@ access via aws management console aws cli or aws sdk
 dont worry about payment
 
 AWS has good detail on your S3 costs
+
+
+
+
+https://docs.aws.amazon.com/es_es/rds/?id=docs_gateway
+
+amazon aurora
+amazon rds
+
+
+
+Amazon DynamoDB (Amazon S3)
+ -----------
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+|           |
+ -----------
+
+its great it got encryption
+stores any amount serves up to any amount of req
+
+got on demand backup can restore to any point in time within last 35 days for accidental delete
+
+your data is located on SSD and replicated throughout the world for easy and best acesss
+
+can use  AWS Database Migration Service to move a RDBMS or MongoDB to DynamoDB
+
+
 
 
